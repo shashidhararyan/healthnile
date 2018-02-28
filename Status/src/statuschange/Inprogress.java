@@ -38,7 +38,10 @@ public class Inprogress {
 							  sh =  new String (sn1);
 								System.out.print(sh);
 								System.out.print("shashi");
-						 }
+								System.out.print("shashi");
+								
+								 
+ }
 						 else {
 							 String sn = wb.getSheet("Sheet1").getRow(i).getCell(j).getStringCellValue();
 								 sh1 =  new String(sn);	
